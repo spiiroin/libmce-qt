@@ -47,6 +47,7 @@ class QMceBatteryLevel::Private : public QObject
     Q_OBJECT
 public:
     Private(QMceBatteryLevel *aParent);
+
     bool valid() const;
     int value() const;
 

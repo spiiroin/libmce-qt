@@ -112,11 +112,11 @@ void QMceBatteryStatus::Private::updateValue(QString status)
 
     if (status == QStringLiteral(MCE_BATTERY_STATUS_FULL)) {
         value = Full;
-    } else if (status ==QStringLiteral(MCE_BATTERY_STATUS_OK)) {
+    } else if (status == QStringLiteral(MCE_BATTERY_STATUS_OK)) {
         value = Ok;
-    } else if (status ==QStringLiteral(MCE_BATTERY_STATUS_LOW)) {
+    } else if (status == QStringLiteral(MCE_BATTERY_STATUS_LOW)) {
         value = Low;
-    } else if (status ==QStringLiteral(MCE_BATTERY_STATUS_EMPTY)) {
+    } else if (status == QStringLiteral(MCE_BATTERY_STATUS_EMPTY)) {
         value = Empty;
     } else {
         valid = false;

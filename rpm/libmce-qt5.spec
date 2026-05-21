@@ -19,7 +19,6 @@ This package contains Qt bindings for mce
 
 %package declarative
 Summary:    Declarative plugin for libmce-qt5
-Group:      Development/Tools
 Requires:   %{name} = %{version}-%{release}
 Requires:   %{name} = %{version}
 
@@ -28,7 +27,6 @@ This package contains declarative plugin for libmce-qt5
 
 %package devel
 Summary:    Development files for libmce-qt5
-Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
 Requires:   %{name} = %{version}
 
